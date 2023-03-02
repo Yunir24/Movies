@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="@android:color/holo_orange_light"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:alpha="0.7"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewAutorReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            tools:text="Autor Name" />
+
+        <TextView
+            android:id="@+id/textViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            tools:text="@string/example_text" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
